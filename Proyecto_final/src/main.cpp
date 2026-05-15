@@ -1,7 +1,9 @@
 // Para compilar: make
-// Para ejecutar: ./scanner --host <ip/host> --ports <spec>
-//   <spec> puede ser un rango (20-80), una lista (22,80,443) o un puerto (80).
-// ./scanner --host 127.0.0.1 --ports all
+// Ejemplos de uso:
+//   ./scanner --host 127.0.0.1 --ports 20-80
+//   ./scanner --host scanme.nmap.org --ports 22,80,443 --timeout 800 --banner
+//   ./scanner --range 192.168.1.1-192.168.1.20 --ports 22,80 --timeout 500
+//   ./scanner --host 127.0.0.1 --ports all --export resultados.csv
 
 #include "ScannerApp.hpp"
 

@@ -1,0 +1,4 @@
+host,puerto,estado,servicio,banner
+scanme.nmap.org,22,OPEN,SSH,"SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.13"
+scanme.nmap.org,80,OPEN,HTTP,"HTTP/1.1 200 OK"
+scanme.nmap.org,443,CLOSED,HTTPS,
